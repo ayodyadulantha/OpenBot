@@ -373,7 +373,7 @@ for (const { name, environment, expected } of compatibleEndpointCases) {
       OPENAI_API_KEY: "synthetic-openai-key",
       ...environment,
     });
-    for (const service of ["agent-bot", "agent-langgraph", "agent-harness"]) {
+    for (const service of ["agent-bot", "agent-mql5", "agent-langgraph", "agent-harness"]) {
       expect(config.services[service].environment.OPENAI_BASE_URL).toBe(
         expected,
       );

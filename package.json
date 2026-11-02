@@ -6,6 +6,7 @@
   "packageManager": "bun@1.4.3",
   "workspaces": [
     "app",
+
     "server",
     "worker",
     "shared",
